@@ -304,7 +304,7 @@ async def txt_handler(client: Client, m: Message):
         f"• Send any link for auto-extraction\n"  
         f"• Supports batch processing\n\n"  
         f"╭────────⊰◆⊱────────╮\n"   
-        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [𝗪𝗮𝗿𝗿𝗶𝗼𝗿 𝗕𝗼𝘁𝘀](https://t.me/saini_contact_bot) 💻\n"
+        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [⚡𝗪𝗮𝗿𝗿𝗶𝗼𝗿 𝗕𝗼𝘁𝘀](https://t.me/saini_contact_bot) 💻\n"
         f"╰────────⊰◆⊱────────╯\n"
         )
     )                    
