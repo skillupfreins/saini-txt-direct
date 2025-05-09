@@ -1,4 +1,4 @@
-#🇳‌🇮‌🇰‌🇭‌🇮‌🇱‌
+#🍫 🎀 𝗪𝗮𝗿𝗿𝗶𝗼𝗿 𝗕𝗼𝘁𝘀 🎀 🍫
 # Add your details here and then deploy by clicking on HEROKU Deploy button
 from os import environ
 
