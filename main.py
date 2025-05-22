@@ -353,7 +353,16 @@ async def restart_handler(_, m):
 async def start_command(bot: Client, message: Message):
     random_image_url = random.choice(image_urls)
     caption = (
-        f"𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭\n\n➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n➠ For Guide Use Command /help 📖\n\n➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {CREDIT} "
+        f"""**👋 Hello Dear!**
+
+I am your **Text Downloader Bot** — built to make your life easier.
+
+➤ **I can extract Videos & PDFs** from any text file and **upload them directly to Telegram**.
+
+➤ For a full guide, simply use the command: `/help` 📖
+
+➤ **Developed by:** {CREDIT}
+"""
     )
     await bot.send_photo(
         chat_id=message.chat.id,
@@ -390,7 +399,7 @@ async def info(bot: Client, update: Message):
 @bot.on_message(filters.command(["help"]))
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
-    f"╭━━━〔 ⚙️ 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐏𝐀𝐍𝐄𝐋 〕━━━╮\n"
+    f"╭━━━〔 ⚙️   𝐖𝐀𝐑𝐑𝐈𝐎𝐑 𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐏𝐀𝐍𝐄𝐋 〕━━━╮\n"
     f"     💼 𝐁𝐨𝐭 𝐈𝐧𝐭𝐞𝐥𝐥𝐢𝐠𝐞𝐧𝐜𝐞 & 𝐓𝐨𝐨𝐥𝐬\n"
     f"╰━━━━━━━━━━━━━━━━━━━━━╯\n\n"
 
@@ -507,7 +516,7 @@ async def txt_handler(bot: Client, m: Message):
 ├─➤ Send `720`   for 720p
 ├─➤ Send `1080`  for 1080p
 │
-╰───⌈⚡ [🦋 {CREDIT} 🦋] ⚡⌋───╯**"""
+╰───⌈⚡ [💻 {CREDIT} 💻] ⚡⌋───╯**"""
 )
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
