@@ -497,7 +497,18 @@ async def txt_handler(bot: Client, m: Message):
     else:
         b_name = raw_text0
 
-    await editable.edit(f"**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━━➣ \n┣━━⪼ send `144`  for 144p\n┣━━⪼ send `240`  for 240p\n┣━━⪼ send `360`  for 360p\n┣━━⪼ send `480`  for 480p\n┣━━⪼ send `720`  for 720p\n┣━━⪼ send `1080` for 1080p\n╰━━⌈⚡[`🦋{CREDIT}🦋`]⚡⌋━━➣**")
+    await editable.edit(
+    f"""**╭───❰ 𝐒𝐄𝐋𝐄𝐂𝐓 𝐑𝐄𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍 ❱───╮
+│
+├─➤ Send `144`   for 144p
+├─➤ Send `240`   for 240p
+├─➤ Send `360`   for 360p
+├─➤ Send `480`   for 480p
+├─➤ Send `720`   for 720p
+├─➤ Send `1080`  for 1080p
+│
+╰───⌈⚡ [🦋 {CREDIT} 🦋] ⚡⌋───╯**"""
+)
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     quality = f"{raw_text2}p"
@@ -636,6 +647,7 @@ async def txt_handler(bot: Client, m: Message):
                 ccimg = f'[——— ✦ {str(count).zfill(3)} ✦ ———]({link0})\n\n**🖼️ Title :** `{name1}`\n**├── Extention :**  {CR} .jpg\n\n**📚 Course :** {b_name}\n\n**🌟 Extracted By :** {CR}'
                 ccm = f'[——— ✦ {str(count).zfill(3)} ✦ ———]({link0})\n\n**🎵 Title :** `{name1}`\n**├── Extention :**  {CR} .mp3\n\n**📚 Course :** {b_name}\n\n**🌟 Extracted By :** {CR}'
                 cchtml = f'[——— ✦ {str(count).zfill(3)} ✦ ———]({link0})\n\n**🌐 Title :** `{name1}`\n**├── Extention :**  {CR} .html\n\n**📚 Course :** {b_name}\n\n**🌟 Extracted By :** {CR}'
+
 
                 if "drive" in url:
                     try:
