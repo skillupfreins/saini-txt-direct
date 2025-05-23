@@ -507,16 +507,16 @@ async def txt_handler(bot: Client, m: Message):
         b_name = raw_text0
 
     await editable.edit(
-    f"""**╭───❰ 𝐒𝐄𝐋𝐄𝐂𝐓 𝐑𝐄𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍 ❱───╮
+    f"""**╭───〔 🎥 𝐕𝐈𝐃𝐄𝐎 𝐐𝐔𝐀𝐋𝐈𝐓𝐘 𝐒𝐄𝐋𝐄𝐂𝐓𝐎𝐑 〕───╮
 │
-├─➤ Send `144`   for 144p
-├─➤ Send `240`   for 240p
-├─➤ Send `360`   for 360p
-├─➤ Send `480`   for 480p
-├─➤ Send `720`   for 720p
-├─➤ Send `1080`  for 1080p
+├─➤ 144p   – `Send 144`   📱 Ultra-Save Data
+├─➤ 240p   – `Send 240`   📱 Low Quality
+├─➤ 360p   – `Send 360`   📲 Standard Quality
+├─➤ 480p   – `Send 480`   📺 SD Quality
+├─➤ 720p   – `Send 720`   🖥️ HD Ready
+├─➤ 1080p  – `Send 1080`  💻 Full HD
 │
-╰───⌈⚡ [💻 {CREDIT} 💻] ⚡⌋───╯**"""
+╰───⌈⚡ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲: 💼 {CREDIT} 💼 ⚡⌋───╯**"""
 )
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
