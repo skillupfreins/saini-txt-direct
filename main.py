@@ -787,12 +787,12 @@ async def txt_handler(bot: Client, m: Message):
                            f'┣💃𝐂𝐫𝐞𝐝𝐢𝐭 » {CR}\n┃\n' \
                            f"╰━📚𝐁𝐚𝐭𝐜𝐡 » {b_name}\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
-                           f"📚𝐓𝐢𝐭𝐥𝐞 » {name}\n┃\n" \
-                           f"┣🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {quality}\n┃\n" \
+                           f"📋𝐓𝐢𝐭𝐥𝐞 » {name}\n┃\n" \
+                           f"┣📺𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {quality}\n┃\n" \
                            f'┣━🔗𝐋𝐢𝐧𝐤 » <a href="{link0}">**Original Link**</a>\n┃\n' \
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
-                           f"📛**Send** /stop **to stop process**\n┃\n" \
+                           f"🚦**Send** /stop **to stop process**\n┃\n" \
                            f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
@@ -816,12 +816,12 @@ async def txt_handler(bot: Client, m: Message):
                            f'┣💃𝐂𝐫𝐞𝐝𝐢𝐭 » {CR}\n┃\n' \
                            f"╰━📚𝐁𝐚𝐭𝐜𝐡 » {b_name}\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
-                           f"📚𝐓𝐢𝐭𝐥𝐞 » {name}\n┃\n" \
-                           f"┣🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {quality}\n┃\n" \
+                           f"📋𝐓𝐢𝐭𝐥𝐞 » {name}\n┃\n" \
+                           f"┣📺𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {quality}\n┃\n" \
                            f'┣━🔗𝐋𝐢𝐧𝐤 » <a href="{link0}">**Original Link**</a>\n┃\n' \
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
-                           f"🛑**Send** /stop **to stop process**\n┃\n" \
+                           f"🚦**Send** /stop **to stop process**\n┃\n" \
                            f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
@@ -842,15 +842,15 @@ async def txt_handler(bot: Client, m: Message):
                            f"╰━🖇️𝐑𝐞𝐦𝐚𝐢𝐧 » {remaining_links}\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n┃\n" \
-                           f'┣💃𝐂𝐫𝐞𝐝𝐢𝐭 » {CR}\n┃\n' \
+                           f'┣🕵🏻𝐂𝐫𝐞𝐝𝐢𝐭 » {CR}\n┃\n' \
                            f"╰━📚𝐁𝐚𝐭𝐜𝐡 » {b_name}\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
-                           f"📚𝐓𝐢𝐭𝐥𝐞 » {name}\n┃\n" \
-                           f"┣🍁𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {quality}\n┃\n" \
+                           f"📋𝐓𝐢𝐭𝐥𝐞 » {name}\n┃\n" \
+                           f"┣📺𝐐𝐮𝐚𝐥𝐢𝐭𝐲 » {quality}\n┃\n" \
                            f'┣━🔗𝐋𝐢𝐧𝐤 » <a href="{link0}">**Original Link**</a>\n┃\n' \
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
-                           f"🛑**Send** /stop **to stop process**\n┃\n" \
+                           f"🚦**Send** /stop **to stop process**\n┃\n" \
                            f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
