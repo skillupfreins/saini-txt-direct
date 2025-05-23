@@ -359,7 +359,7 @@ I am your **Text Downloader Bot** — built to make your life easier.
 
 ➤ **I can extract Videos & PDFs** from any text file and **upload them directly to Telegram**.
 
-➤ For a full guide, simply use the command: `/help` 📖
+➤ For a full guide, simply use the command: "/help" 📖
 
 ➤ **Developed by:** {CREDIT}
 """
